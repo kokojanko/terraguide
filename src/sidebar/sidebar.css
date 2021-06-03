@@ -1,0 +1,36 @@
+
+
+.WhereYouAt{
+    color: black;
+}
+
+/* .WhereYouAt:hover{
+    transform:scale(1.4)
+}
+
+.else:hover{
+    transform:scale(1.2)
+} */
+
+li{
+    font-size: 3em;
+    margin-right: 20px;
+    padding: 10px;
+}
+.Bigwrapper{
+    display: flex;
+    justify-content: center;   
+}
+.else {
+    position: relative;
+    top: 0;
+    z-index: 2;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 500px;
+    cursor: pointer;
+    transition: 0.5s linear;
+  }
+  .else:hover {
+    top: 20px;
+  }
