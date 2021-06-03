@@ -1,0 +1,15 @@
+.bigwrapper{
+    width: 100%;
+     height: 1000px;   /*<--- не забыть адаптировать*/   
+     color: white; 
+}
+
+.Wrapper {
+    font-size: 0.5em;
+}
+.WhatWillYouFind{
+    margin-top: 7%;
+}
+ul{
+    float: left;
+}

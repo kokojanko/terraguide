@@ -1,41 +1,7 @@
-/* body{
-    background: #000;
-} */
-.wrapper{
-    /* border: solid black 2px; */
-    width: calc(100% - 20px);
-    height: 800px;
-    margin-left: 10px;
+body{
+    background-image: url(./components/imege/471578793_preview_829_9.gif);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.877);
 }
 
-.container{
-    /* border: solid black 2px; */
-    width: 25%;
-    height: 100%;
-    float: left;
-}
-.o2t-element{
-    display: flex;
-    justify-content: center;
-    margin-top: 10%;
-    font-size: 2em;
-}
-.o2t-element div{
-    width: 200px;
-    height: 100px;
-}
-.o2t-element--hidden {
-    opacity: 0;
-    visibility: hidden;
-    transition: .55s opacity, .55s visibility;
-}
-.o2t-element:hover ~ .o2t-element--hidden {
-    opacity: 1;
-    visibility: visible;
-    margin: 0 auto;
-    padding: 10px;
-    text-align: center;
-    max-width: 500px;
-    cursor: pointer;
-    transition: 1s linear;
-}
