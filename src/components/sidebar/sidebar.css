@@ -1,52 +1,31 @@
 
-.Bigwrapper{
-    display: flex;
-    justify-content: center; 
-    width: calc(100% - 20px);
-    margin-left: 10px;
-}
-
-.sidecall{
-    transform: translateY(-90%);
+.obortka{
+    transform: translateX(-240px);
+    border: 2px solid black;
+    position: absolute;
+    /* height: 700px; */
+    width: 250px;
+    background-color: rgb(128, 32, 32);
+    margin-top: 10%;
     transition: 1s;
-    
+    border-radius: 10px;
 }
-.sidecall:hover{
-    transform: translateY(0%);
+.obortka:hover{
     transition: 1s;
-    
+    transform: translateX(0px);
 }
-.WhereYouAt{
-    color: black;
-    
-}
-
-/* .WhereYouAt:hover{
-    transform:scale(1.4)
-}
-
-.else:hover{
-    transform:scale(1.2)
-} */
-
-li{
-    font-size: 3em;
-    margin-right: 20px;
-    padding: 10px;
-    
-    
-}
-.else {
+.ssilka{
     position: relative;
-    top: 0;
     z-index: 2;
-    margin: 0 auto;
-    text-align: center;
-    max-width: 500px;
     cursor: pointer;
-    transition: 0.5s linear;
+    transition: 1s ;
+    text-decoration: none;
+    color: black;
+    font-size: 2em;
+    margin-top: 10px;
+}
+.ssilka:hover{
+    color: white;
+    left: 30px;
     
-  }
-  .else:hover {
-    top: 20px;
-  }
+}

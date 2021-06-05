@@ -1,8 +1,10 @@
 import React from 'react'
 import Sidebar from './components/sidebar/sidebar'
-import './app.css'
+import './App.css'
 import Wor from './components/clas/clases'
 import Bot from './components/bottom/bot'
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { Router } from 'react-router-dom/cjs/react-router-dom.min'
 
 function App() {
   return (
@@ -16,7 +18,6 @@ function App() {
       </div>
       
     </div>
-
   );
 }
 

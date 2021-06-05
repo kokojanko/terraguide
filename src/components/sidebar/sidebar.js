@@ -1,41 +1,20 @@
 import React from 'react'
 import './sidebar.css'
 
-import {Navigation} from 'react-minimal-side-navigation';
-import 'react-minimal-side-navigation/lib/ReactMinimalSideNavigation.css';
+
 
 function Sidebar() {
     return (
-        <div className='Bigwrapper'>
-          <div className='sidecall'>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="#"><div className='WhereYouAt'>Главная</div></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#"><div className='else'>Воин</div></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#"><div className='else'>Стрелок</div></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#"><div className='else'>Маг</div></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#"><div className='else'>Призыватель</div></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#"><div className='else'>Эксперт</div></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#"><div className='else'>Мастер</div></a>
-              </li>
-            </ul>
+        <div className='Biggerwrapper'>
+          <div className='obortka'>  
+            <div class="str"><a className='ssilka'>Главная</a></div>
+            <div class="str"><a className='ssilka'>Воин</a></div>
+            <div class="str"><a className='ssilka'>Стрелок</a></div>
+            <div class="str"><a className='ssilka'>Маг</a></div>
+            <div class="str"><a className='ssilka'>Призыватель</a></div>
+            <div class="str"><a className='ssilka'>Эксперт</a></div>
+            <div class="str"><a className='ssilka'>Мастер</a></div>
           </div>
-          </nav>
-        </div>
       </div>
       );
 }
