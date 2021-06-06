@@ -7,11 +7,13 @@
 
 .Wrapper {
     font-size: 2em;
+    
 }
 .WhatWillYouFind{
     margin-top: 15%;
     display: flex;
     justify-content: center;
+    
 }
 ul{
     float: left;

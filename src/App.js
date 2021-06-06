@@ -3,11 +3,12 @@ import Sidebar from './components/sidebar/sidebar'
 import './App.css'
 import Wor from './components/clas/clases'
 import Bot from './components/bottom/bot'
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import { Router } from 'react-router-dom/cjs/react-router-dom.min'
+import { BrowserRouter as Router, Route, Switch  } from 'react-router-dom'
+import Worrior from './warrior/warrior'
 
 function App() {
   return (
+    <Router>
     <div className='BigWrapper'> 
     <div>
         <Sidebar />
@@ -18,6 +19,10 @@ function App() {
       </div>
       
     </div>
+    <Switch>
+      <Route exact path='/warrior' component={Worrior}  />
+    </Switch>
+    </Router>
   );
 }
 

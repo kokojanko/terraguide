@@ -9,6 +9,7 @@
     margin-top: 10%;
     transition: 1s;
     border-radius: 10px;
+    z-index: 2
 }
 .obortka:hover{
     transition: 1s;

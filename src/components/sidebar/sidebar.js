@@ -7,8 +7,8 @@ function Sidebar() {
     return (
         <div className='Biggerwrapper'>
           <div className='obortka'>  
-            <div class="str"><a className='ssilka'>Главная</a></div>
-            <div class="str"><a className='ssilka'>Воин</a></div>
+            <div class="str"><a href='/main'  className='ssilka'>Главная</a></div>
+            <div class="str"><a href='/warrior' className='ssilka'>Воин</a></div>
             <div class="str"><a className='ssilka'>Стрелок</a></div>
             <div class="str"><a className='ssilka'>Маг</a></div>
             <div class="str"><a className='ssilka'>Призыватель</a></div>
